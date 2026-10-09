@@ -1,0 +1,131 @@
+[
+  {
+    "employee_id": "EMP_3081",
+    "name": "Alexei Romanov",
+    "department": "External Contractor",
+    "role": "Cloud DevOps Contractor",
+    "max_risk_score": 95,
+    "threat_category": "Intellectual Property / Source Code Exfiltration",
+    "total_exfiltrated_gb": 9.18,
+    "normal_baseline_avg_mb": 12.22,
+    "anomaly_volume_multiplier": 769.1,
+    "primary_endpoint": "Unknown-Linux-Daemon",
+    "primary_country": "Romania / Proxy",
+    "evidence_timeline": [
+      {
+        "timestamp": "2026-10-08 01:09:18",
+        "action": "TOR_NODE_LOGIN",
+        "data_size": "2.38 MB",
+        "bytes": 2500000,
+        "ip": "185.220.101.4",
+        "country": "Romania / Proxy",
+        "device": "Unknown-Linux-Daemon",
+        "session": "SSH_Direct",
+        "risk_score": 60,
+        "risk_level": "ELEVATED"
+      },
+      {
+        "timestamp": "2026-10-08 01:24:18",
+        "action": "PRIVILEGED_IAM_ROLE_ATTACH",
+        "data_size": "0.48 MB",
+        "bytes": 500000,
+        "ip": "185.220.101.4",
+        "country": "Romania / Proxy",
+        "device": "Unknown-Linux-Daemon",
+        "session": "AWS_CLI",
+        "risk_score": 60,
+        "risk_level": "ELEVATED"
+      },
+      {
+        "timestamp": "2026-10-08 01:39:18",
+        "action": "MASS_PROPRIETARY_REPO_CLONE",
+        "data_size": "9393.69 MB",
+        "bytes": 9850000000,
+        "ip": "185.220.101.4",
+        "country": "Romania / Proxy",
+        "device": "Unknown-Linux-Daemon",
+        "session": "Git_Direct",
+        "risk_score": 95,
+        "risk_level": "CRITICAL"
+      }
+    ]
+  },
+  {
+    "employee_id": "EMP_1094",
+    "name": "Jordan Reed",
+    "department": "Data Platform",
+    "role": "Senior Data Engineer",
+    "max_risk_score": 63,
+    "threat_category": "Mass Cloud Database Dump to Unmanaged Infrastructure",
+    "total_exfiltrated_gb": 11.69,
+    "normal_baseline_avg_mb": 12.95,
+    "anomaly_volume_multiplier": 924.3,
+    "primary_endpoint": "Corporate-MacBook-Pro",
+    "primary_country": "United States",
+    "evidence_timeline": [
+      {
+        "timestamp": "2026-10-08 23:19:18",
+        "action": "OFF_HOURS_SQL_WAREHOUSE_DUMP",
+        "data_size": "5912.78 MB",
+        "bytes": 6200000000,
+        "ip": "198.51.100.89",
+        "country": "United States",
+        "device": "Corporate-MacBook-Pro",
+        "session": "Snowflake_Direct",
+        "risk_score": 63,
+        "risk_level": "ELEVATED"
+      },
+      {
+        "timestamp": "2026-10-08 23:39:18",
+        "action": "UNENCRYPTED_S3_BUCKET_SYNC",
+        "data_size": "6055.83 MB",
+        "bytes": 6350000000,
+        "ip": "198.51.100.89",
+        "country": "United States",
+        "device": "Corporate-MacBook-Pro",
+        "session": "AWS_CLI",
+        "risk_score": 63,
+        "risk_level": "ELEVATED"
+      }
+    ]
+  },
+  {
+    "employee_id": "EMP_1042",
+    "name": "Marcus Vance",
+    "department": "Sales",
+    "role": "Senior Sales Director",
+    "max_risk_score": 60,
+    "threat_category": "Pre-Resignation Customer PII & Leads Exfiltration",
+    "total_exfiltrated_gb": 7.41,
+    "normal_baseline_avg_mb": 12.91,
+    "anomaly_volume_multiplier": 588.1,
+    "primary_endpoint": "Personal-MacBook-Air",
+    "primary_country": "United States",
+    "evidence_timeline": [
+      {
+        "timestamp": "2026-10-08 15:14:18",
+        "action": "BULK_CUSTOMER_DB_EXPORT",
+        "data_size": "3662.11 MB",
+        "bytes": 3840000000,
+        "ip": "136.25.104.99",
+        "country": "United States",
+        "device": "Personal-MacBook-Air",
+        "session": "Direct_Browser",
+        "risk_score": 60,
+        "risk_level": "ELEVATED"
+      },
+      {
+        "timestamp": "2026-10-08 15:39:18",
+        "action": "PERSONAL_CLOUD_STORAGE_UPLOAD",
+        "data_size": "3929.14 MB",
+        "bytes": 4120000000,
+        "ip": "136.25.104.99",
+        "country": "United States",
+        "device": "Personal-MacBook-Air",
+        "session": "Direct_Browser",
+        "risk_score": 60,
+        "risk_level": "ELEVATED"
+      }
+    ]
+  }
+]

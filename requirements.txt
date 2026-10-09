@@ -3,3 +3,5 @@ numpy
 google-genai
 python-dotenv
 streamlit
+plotly
+cryptography
