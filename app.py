@@ -41,11 +41,11 @@ st.markdown("""
     h1, h2, h3, h4 {
         font-family: 'Plus Jakarta Sans', sans-serif;
         font-weight: 600;
-        letter-spacing: -0.02em;
+        letter-spacing: -0.01em;
     }
     
     .cyber-title {
-        font-size: 2.2rem;
+        font-size: 1.45rem;
         font-weight: 700;
         background: linear-gradient(90deg, #38BDF8 0%, #818CF8 50%, #C084FC 100%);
         -webkit-background-clip: text;
@@ -55,50 +55,50 @@ st.markdown("""
     
     .cyber-subtitle {
         color: #94A3B8;
-        font-size: 0.95rem;
-        margin-bottom: 20px;
+        font-size: 0.82rem;
+        margin-bottom: 12px;
     }
     
     .metric-card {
         background: #111827;
         border: 1px solid #1E293B;
-        border-radius: 12px;
-        padding: 16px 20px;
-        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+        border-radius: 8px;
+        padding: 10px 14px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
         transition: transform 0.2s ease, border-color 0.2s ease;
     }
     .metric-card:hover {
         border-color: #38BDF8;
-        transform: translateY(-2px);
+        transform: translateY(-1px);
     }
     .metric-num {
         font-family: 'JetBrains Mono', monospace;
-        font-size: 2rem;
+        font-size: 1.35rem;
         font-weight: 700;
         color: #F8FAFC;
     }
     .metric-label {
-        font-size: 0.75rem;
+        font-size: 0.68rem;
         font-weight: 600;
         color: #64748B;
         text-transform: uppercase;
-        letter-spacing: 0.08em;
+        letter-spacing: 0.06em;
     }
     
     .threat-card {
         background: #131B2E;
         border: 1px solid #1E293B;
-        border-radius: 12px;
-        padding: 18px;
-        margin-bottom: 12px;
+        border-radius: 8px;
+        padding: 12px 14px;
+        margin-bottom: 8px;
     }
     .badge-critical {
         background-color: #450A0A;
         color: #F87171;
         border: 1px solid #991B1B;
-        padding: 4px 10px;
-        border-radius: 20px;
-        font-size: 0.75rem;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.7rem;
         font-weight: 700;
         font-family: 'JetBrains Mono', monospace;
     }
@@ -106,9 +106,9 @@ st.markdown("""
         background-color: #431407;
         color: #FB923C;
         border: 1px solid #C2410C;
-        padding: 4px 10px;
-        border-radius: 20px;
-        font-size: 0.75rem;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.7rem;
         font-weight: 700;
         font-family: 'JetBrains Mono', monospace;
     }
@@ -116,12 +116,13 @@ st.markdown("""
     .briefing-box {
         background: #0F172A;
         border: 1px solid #334155;
-        border-left: 4px solid #818CF8;
-        border-radius: 8px;
-        padding: 24px 28px;
-        line-height: 1.7;
+        border-left: 3px solid #818CF8;
+        border-radius: 6px;
+        padding: 16px 20px;
+        font-size: 0.88rem;
+        line-height: 1.55;
         color: #E2E8F0;
-        margin-top: 15px;
+        margin-top: 10px;
     }
     
     code {
