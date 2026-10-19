@@ -58,8 +58,8 @@ Modern cybersecurity threats originate as frequently from **compromised contract
 
 ### 1. Clone & Install Dependencies
 ```bash
-git clone https://github.com/vivi-dot-exe/i-security-log-pipeline_project1.git
-cd i-security-log-pipeline_project1
+git clone https://github.com/vivi-dot-exe/sentinel-ueba-threat-pipeline.git
+cd sentinel-ueba-threat-pipeline
 pip install -r requirements.txt
 ```
 
